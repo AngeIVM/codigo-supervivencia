@@ -1,7 +1,6 @@
 'use strict';
 /* =========================================================
    CÓDIGO DE SUPERVIVENCIA: MISIÓN INFORMÁTICA — UMSS
-   Juego arcade en HTML5 Canvas + JavaScript puro.
    Secciones:
      1. Configuración        6. Entidades y spawn
      2. Utilidades           7. Actualización (lógica)
