@@ -40,7 +40,7 @@
   // AJUSTE DE DURACIÓN: la escala original se multiplicó x1.5 para que cada mundo dure más.
   // Se ganan ≈ 60–100 puntos por segundo. Si todavía se siente corto, multiplica todos los
   // valores de WORLD_SCORES, BOSS.SCORES, REPEAT_GAP, MIN_GAP y ENDINGS por el mismo factor.
-  const WORLD_SCORES = [0, 5500, 11000, 17500, 23000];
+  const WORLD_SCORES = [0, 9000, 16000, 21000, 26000];
 
   // Umbrales de los finales (misma escala de puntos)
   const ENDINGS = {
@@ -94,7 +94,7 @@
   const BOSS = {
     // Puntos de progreso en los que aparece cada jefe (escala x1.5 respecto al original).
     // Mantén cada valor un poco por debajo de WORLD_SCORES[i+1].
-    SCORES: [5000, 10500, 17000, 23500, 29000],
+    SCORES: [8500, 15500, 25000, 25500, 30000],
     REPEAT_GAP: 5250,
     MIN_GAP: 1800,
     BONUS: [500, 1000, 1500, 2000, 3000],
